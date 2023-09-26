@@ -26,9 +26,9 @@ import javax.imageio.ImageIO;
 import library.assistant.util.LibraryAssistantUtil;
 
 public class AlertMaker {
-
     public static void showSimpleAlert(String title, String content) {
         Alert alert = new Alert(AlertType.INFORMATION);
+
         alert.setTitle(title);
         alert.setHeaderText(null);
         alert.setContentText(content);
